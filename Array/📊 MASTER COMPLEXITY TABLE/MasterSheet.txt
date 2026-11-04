@@ -1,0 +1,13 @@
+This is very important for your exam.
+
+Algorithm	Best	Average	Worst	Space
+Linear Search	O(1)	O(n)	O(n)	O(1)
+Binary Search	O(1)	O(log n)	O(log n)	O(1)
+Bubble Sort	O(n)	O(n²)	O(n²)	O(1)
+Selection Sort	O(n²)	O(n²)	O(n²)	O(1)
+Insertion Sort	O(n)	O(n²)	O(n²)	O(1)
+Merge Sort	O(n log n)	O(n log n)	O(n log n)	O(n)
+Quick Sort	O(n log n)	O(n log n)	O(n²)	O(log n)*
+Heap Sort	O(n log n)	O(n log n)	O(n log n)	O(1)
+
+* Quick Sort's recursion-stack space is typically O(log n) on balanced partitions, but can become O(n) in the worst case.
