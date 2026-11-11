@@ -14,7 +14,7 @@ public:
         this->right = NULL;
     }
 
-}
+};
 
 int main()
 {
@@ -25,6 +25,10 @@ int main()
     root->left->right = new TreeNode('E');
     root->right->right = new TreeNode('F');
     root->right->right->left = new TreeNode('G');
+
+    cout<<root->data<<endl;
+    cout<<root->left->data<<endl;
+    cout<<root->right->data<<endl;
 
     return 0;
 }
