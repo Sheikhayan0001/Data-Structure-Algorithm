@@ -20,11 +20,20 @@ public:
 
 int main()
 {  
+    // CREATE UNIQUE POINTER
     unique_ptr<Employee> emp = make_unique<Employee>("Rahul",20);
 
+    // SOTRE ADD OF 1ST UNIQUE POINTER
+    unique_ptr<Employee> *emp2 = &emp;
+    cout <<"Acceseing to another pointer :"<< (*emp2)->age <<endl;
+
+    
     // Print memory address of Employee object
-    // its safe dosn't print memo address
-    cout << "Memory Address: " << emp.get() << endl;
+
+    // its safe dosn't print memo address = But after conclusion its give address nb 
+    cout << "Memory Address: " << emp.get() << endl; // 1st PTR
+
+    cout<<"\nage access :"<<&(*emp)<<endl; // 2nd PTR
 
     emp->display();
     return 0;
