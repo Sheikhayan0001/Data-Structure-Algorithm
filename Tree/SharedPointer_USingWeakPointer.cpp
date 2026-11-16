@@ -10,7 +10,7 @@ int main()
     if(shared_ptr<int> lock = ptr2.lock()){
         cout << temp << endl;
     }else{
-        cout << "No pointer is there....."<<endl;
+        cout << "No pointer is there."<<endl;
     }
     return 0;
 }
