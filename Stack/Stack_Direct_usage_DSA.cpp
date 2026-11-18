@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
     stack<int>s; // empty vector
+    
     // adding elemnts
     s.push(30); // go down
     s.push(20);
