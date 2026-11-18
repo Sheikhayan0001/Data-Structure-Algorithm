@@ -1,0 +1,37 @@
+Notation	Example
+Infix	A + B
+Prefix (Polish)	+ A B
+Postfix (Reverse Polish)	A B +
+
+
+For example:
+- Infix: A + B
+- Prefix: + A B
+- Postfix: A B +
+
+#======================== Conversions ===================
+
+5. Infix to Postfix Conversion
+Example:
+Infix:   A+B*C
+Postfix: ABC*+
+
+
+Rules:
+1. Operand → Add directly to output.
+2. ( → Push into stack.
+3. ) → Pop until (.
+4. Operator → Pop higher or equal precedence operators, then push current operator.
+
+
+6. Infix to Prefix Conversion
+Example:
+Infix:  A+B*C
+
+7. Postfix Expression Evaluation
+Example:
+Postfix: 23+4*
+Step 1: 2 + 3 = 5
+Step 2: 5 * 4 = 20
+
+Answer: 20

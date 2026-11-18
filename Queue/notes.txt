@@ -1,0 +1,13 @@
+8. Introduction to Queue
+A Queue follows FIFO (First In, First Out).
+
+Example: People standing in a ticket counter line.
+
+
+Operations:
+- Enqueue: Insert element.
+- Dequeue: Delete element.
+- Front: First element.
+- Rear: Last element.
+- Traversal: Display elements.
+
