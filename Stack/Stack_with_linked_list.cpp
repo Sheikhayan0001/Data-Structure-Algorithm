@@ -27,6 +27,7 @@ public:
 int main()
 {
     Stack s; // empty vector
+    
     // adding elemnts
     s.push(30); // go down
     s.push(20);
