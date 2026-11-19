@@ -33,7 +33,7 @@ int main(){
     s.push(20);
     s.push(10); // go front
 
-    // traversal
+    // traversal - syntax
     while(!s.empty()){
         cout <<s.top() <<" ";
         s.pop();
