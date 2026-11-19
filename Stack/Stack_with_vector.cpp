@@ -2,6 +2,8 @@
 #include<vector>
 using namespace std ;
 
+// learning from mobile 
+
 class Stack {
     vector<int> v;
 public:
