@@ -18,7 +18,7 @@ vector<int> twoSum(vector<int>& nums, int target) {
 }
 
 int main() {
-    // vector of array
+    // vector of array - to stores data
     vector<int> nums = {2, 7, 11, 15};
     
     int target = 9;
