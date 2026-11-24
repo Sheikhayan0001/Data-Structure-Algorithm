@@ -1,13 +1,11 @@
 // Deque (Double Ended Queue)
 // A Deque allows insertion and deletion from both ends.
 
-
 // Four main operations:
 // 1. Insert Front
 // 2. Insert Rear
 // 3. Delete Front
 // 4. Delete Rear
-
 
 #include <iostream>
 #include <deque>
