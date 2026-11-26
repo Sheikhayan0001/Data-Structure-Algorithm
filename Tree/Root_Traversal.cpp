@@ -15,6 +15,7 @@ public:
         right = nullptr;
     }
 };
+
 static int idx = -1;
 // WE TRAVERSING EVERY ELEM OF PREORDER 
 // TIME COM OF FUN = 0(n)

@@ -14,6 +14,7 @@ struct TreeNode{
     }
 
 };
+
 int main(){
     TreeNode *root = new TreeNode('A');
     root->left = new TreeNode('B');
